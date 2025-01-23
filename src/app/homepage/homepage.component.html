@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="container">
+          <div class="logo">CarHub</div>
+          <nav>
+            <a routerLink="/header" (click)="homepage()">Home</a>
+            <a routerLink="/carwash"(click)="explorecars()">Explore Cars</a>
+            <a routerLink="/sellacar" (click)="sellacar()">Sell my Car</a>
+            <a routerLink="/dashboard" (click)="Serviceprovider()">Service</a>
+            <a routerLink="/login" class="login-btn" (click)="login()">Log in</a>
+          </nav>
+        </div>
+      </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>ALL UNDER<br>ONE ROOF!</h1>
+                <p>"Your One-Stop Destination for<br>Buying, Selling, and Servicing Your<br>Car - Hassle-Free and All in One<br>Place!"</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn explore">Explore Cars</a>
+                    <a href="#" class="btn sell">Sell a Car</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="mustang.png" alt="Ford Mustang">
+            </div>
+        </div>
+    </section>
+    
+    <section class="explore-section">
+        <div class="container">
+            <p>"Your One-Stop Destination for Buying, Selling, and Servicing Your Car - Hassle-Free and All in One Place!"</p>
+            <h2>EXPLORE CARS</h2>
+            <div class="car-brands">
+                <div class="brand-card">
+                    <img src="toyotalogo.png" alt="Toyota Logo">
+                    <h3>TOYOTA</h3>
+                    <a href="#" class="btn view-models">View Models</a>
+                </div>
+                <div class="brand-card">
+                    <img src="volkswagen.png" alt="Volkswagen Logo">
+                    <h3>VOLKSWAGEN</h3>
+                    <a href="#" class="btn view-models">View Models</a>
+                </div>
+                <div class="brand-card">
+                    <img src="ford.png" alt="Ford Logo">
+                    <h3>FORD</h3>
+                    <a href="#" class="btn view-models">View Models</a>
+                </div>
+                <div class="brand-card">
+                    <img src="audi.png" alt="Audi Logo">
+                    <h3>AUDI</h3>
+                    <a href="#" class="btn view-models">View Models</a>
+                </div>
+                <div class="brand-card">
+                    <img src="kia.png" alt="Kia Logo">
+                    <h3>KIA</h3>
+                    <a href="#" class="btn view-models">View Models</a>
+                </div>
+                <div class="brand-card">
+                    <img src="hyundai.png" alt="Hyundai Logo">
+                    <h3>HYUNDAI</h3>
+                    <a href="#" class="btn view-models">View Models</a>
+                </div>
+                <div class="brand-card">
+                    <img src="mahindra.png" alt="Mahindra Logo">
+                    <h3>MAHINDRA</h3>
+                    <a href="#" class="btn view-models">View Models</a>
+                </div>
+                <div class="brand-card">
+                    <img src="bmw.png" alt="BMW Logo">
+                    <h3>BMW</h3>
+                    <a href="#" class="btn view-models">View Models</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 CarHub. All rights reserved.</p>
+            <p>
+                CarHub is your trusted partner for all car-related needs. From buying and selling used cars 
+                to comprehensive servicing solutions, we bring transparency and convenience to every step 
+                of your automotive journey.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
